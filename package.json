@@ -1,0 +1,31 @@
+{
+  "name": "@yc-w-cn/umi-prisma-utils",
+  "version": "1.0.0",
+  "description": "Utils connect umi and prisma.",
+  "author": "contact@wangyuchen.cn",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yc-w-cn/umi-prisma-utils.git"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "umi",
+    "prisma"
+  ],
+  "bugs": {
+    "url": "https://github.com/yc-w-cn/umi-prisma-utils/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.9",
+    "@types/mocha": "^10.0.3",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1"
+  }
+}
